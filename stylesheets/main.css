@@ -1,0 +1,75 @@
+body {
+    Background: url("../images/bg.png") repeat 0 0;
+}
+
+p{
+    word-wrap: break-word;
+}
+
+div#OuterWrapper{
+    width: 70%;
+    margin: 0 auto;
+}
+
+div#LogoWrapper{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 20px
+}
+div#InnerWrapper{
+    margin: 0 auto;
+}
+
+div#ControlBar{
+    width:100%;
+    margin: 0 auto;
+    padding-top: 5px
+}
+
+.logo{
+    width: 720px;
+    margin: 0 auto;
+}
+.hrdiv{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.contentwrapper{
+    width: 70%;
+    float: left;
+    padding: 20px
+}
+
+.barwrapper{
+    width: 1px;
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px solid #303030;
+    min-height: 720px
+}
+
+.sidebarwrapper{
+    width: 25%;
+    float: left;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+.contenthead{
+    text-shadow: 0 1px 0px #C0C0C0;
+    font-size: 22px;
+    color: #303030
+}
+span.contenthead:hover{
+    color:blue;
+}
+.contentheadfirst{
+    font-size: 35px;
+}
+.content{
+    text-shadow: 0 1px 0px #D0D0D0;
+    color: #101010;
+    padding-top: 5px;
+}
