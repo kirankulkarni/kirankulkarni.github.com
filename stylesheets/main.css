@@ -19,7 +19,8 @@ div#OuterWrapper{
 div#LogoWrapper{
     width: 90%;
     margin: 0 auto;
-    padding-top: 20px
+    padding-top: 20px;
+    text-align: center;
 }
 div#InnerWrapper{
     margin: 0 auto;
@@ -47,21 +48,20 @@ div#ControlBar{
 }
 
 .barwrapper{
-    width: 1px;
+    width: 5%;
     float: left;
-    padding-left: 5px;
-    padding-right: 5px;
-    border: 1px solid #303030;
-    min-height: 720px
 }
 
 .sidebarwrapper{
     width: 25%;
     float: left;
-    padding-left: 1px;
-    padding-right: 1px;
+    padding-left: 5px;
+    text-align: right;
 }
-
+.sidebarwrapper h3 {
+    text-shadow: 0 1px 0px #D0D0D0;
+    color: #404040;
+}
 .contenthead{
     text-shadow: 0 1px 0px #C0C0C0;
     font-size: 22px;
