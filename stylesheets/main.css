@@ -6,6 +6,11 @@ p{
     word-wrap: break-word;
 }
 
+hr{
+    border: 0;
+    height: 1px;
+    background: url("../images/hr.png") repeat 0 0;
+}
 div#OuterWrapper{
     width: 70%;
     margin: 0 auto;
@@ -27,7 +32,7 @@ div#ControlBar{
 }
 
 .logo{
-    width: 720px;
+    width: 600px;
     margin: 0 auto;
 }
 .hrdiv{
