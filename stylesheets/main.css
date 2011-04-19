@@ -17,7 +17,7 @@ div#OuterWrapper{
 }
 
 div#LogoWrapper{
-    width: 90%;
+n    width: 90%;
     margin: 0 auto;
     padding-top: 20px;
     text-align: center;
@@ -44,25 +44,9 @@ div#ControlBar{
 .contentwrapper{
     width: 70%;
     float: left;
-    padding: 20px
+    padding: 5px
 }
-
-.barwrapper{
-    width: 5%;
-    float: left;
-}
-
-.sidebarwrapper{
-    width: 25%;
-    float: left;
-    padding-left: 5px;
-    text-align: right;
-}
-.sidebarwrapper h3 {
-    text-shadow: 0 1px 0px #D0D0D0;
-    color: #404040;
-}
-.contenthead{
+.contenthead{n
     text-shadow: 0 1px 0px #C0C0C0;
     font-size: 22px;
     color: #303030
@@ -77,4 +61,19 @@ span.contenthead:hover{
     text-shadow: 0 1px 0px #D0D0D0;
     color: #101010;
     padding-top: 5px;
+}
+
+.sidebarwrapper{
+    width: 25%;
+    float: left;
+    padding-left: 10px;
+    text-align: right;
+}
+.sidebarwrapper h3 {
+    text-shadow: 0 1px 0px #D0D0D0;
+    color: #404040;
+}
+.thumbnail{
+    width: 80px;
+    float: right;
 }
