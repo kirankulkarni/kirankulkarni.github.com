@@ -48,7 +48,8 @@ div#ControlBar{
 .contentwrapper{
     width: 70%;
     float: left;
-    padding: 5px
+    padding: 5px;
+    text-align: justify;
 }
 .contenthead{
     text-shadow: 0 1px 0px #C0C0C0;
@@ -83,3 +84,29 @@ span.contenthead:hover{
     float: right;
 }
 
+.sidebarwrapper .tags{
+    width: 100%;
+    padding: 2px;
+    float: right;
+}
+.tags .tagscontent{
+    text-align: justify;
+    color: #303030;
+    text-shadow: 0 1px 0px #D0D0D0;
+    padding-left: 25px;
+}
+.tags .tiny {
+    font-size: x-small
+}
+.tags .small{
+    font-size: small;
+}
+.tags .normal{
+    font-size: medium;
+}
+.tags .large{
+    font-size: large;
+}
+.tags .huge{
+    font-size: x-large;
+}
