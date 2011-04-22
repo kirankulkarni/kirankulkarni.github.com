@@ -81,6 +81,37 @@
 	      </p>
 	    </div>
 	  </div>
+	  <script src="http://widgets.twimg.com/j/2/widget.js"></script>
+	  <script>
+	    new TWTR.Widget({
+	    version: 2,
+	    type: 'profile',
+	    rpp: 4,
+	    interval: 6000,
+	    width: 'auto',
+	    height: 300,
+	    theme: {
+	    shell: {
+	    background: '#e6e3e6',
+	    color: '#303030'
+	    },
+	    tweets: {
+	    background: '#919191',
+	    color: '#303030',
+	    links: '#c8ccc6'
+	    }
+	    },
+	    features: {
+	    scrollbar: true,
+	    loop: false,
+	    live: true,
+	    hashtags: true,
+	    timestamp: true,
+	    avatars: false,
+	    behavior: 'all'
+	    }
+	    }).render().setUser('kiran_kulkarni').start();
+	  </script>
 	</div>
       </div>
     </div>
